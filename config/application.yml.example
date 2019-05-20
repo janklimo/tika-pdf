@@ -1,4 +1,4 @@
-DATABASE_URL: 'postgres://localhost:5432/rails_new_development'
+DATABASE_URL: 'postgres://localhost:5432/tika_development'
 HOST: 'http://localhost:3000'
 RAILS_MAX_THREADS: '1'
 WEB_CONCURRENCY: '1'
@@ -11,7 +11,7 @@ RAILS_SYSTEM_TESTING_SCREENSHOT: 'inline'
 # REDIS_URL: 'redis://redis:6379'
 
 test:
-  DATABASE_URL: 'postgres://localhost:5432/rails_new_test'
+  DATABASE_URL: 'postgres://localhost:5432/tika_test'
   # When using Docker use this instead:
   # DATABASE_URL: 'postgres://postgres@postgres:5432/rails_new_test'
   # RAILS_LOG_TO_STDOUT: 'false'

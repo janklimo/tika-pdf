@@ -11,7 +11,7 @@ require_relative '../lib/rack/reject_trace'
 Bundler.require(*Rails.groups)
 
 # TODO: Change module name to the actual project name
-module RailsNew
+module Tika
   class Application < Rails::Application
     ENV_TRUTHY = %w[enabled true t 1].freeze
 
