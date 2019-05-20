@@ -5,4 +5,9 @@ class HomeController < ActionController::Base
     rta = RubyTikaApp.new(Rails.root.join("public", "advanced.pdf").to_s)
     @text = rta.to_text
   end
+
+  def pdf
+    path = Rails.root.join("public", "advanced.pdf").to_s
+    send_file(path)
+  end
 end
