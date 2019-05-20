@@ -74,7 +74,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :production do
   # Remove this if the app is not hosted on Heroku
   gem 'heroku-deflater'
-  gem 'lograge'
+  gem 'lograge', '0.10.0'
   gem 'nakayoshi_fork'
   gem 'rack-timeout'
 end
